@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body {
+            background-color:rgb(153, 75, 89);
+        }
+        #croissant{
+            border:2px solid brown;
+            width:70%;
+            display:block;
+            margin-top:50px;
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+            .words {
+                margin:10px 75px;
+            }
+            #headers {
+                font-family:helvetica,                   sans-serif;
+                color:white;
+                margin-bottom:-10px;
+            }
+            
+            span{
+                color:rgb(79, 34, 51);
+            }
+            p{
+                margin-top:5px;
+                color:wite;
+            }
+            
+          
+            .menu{
+                margin:10px 0px -10px 0px;
+                font-family:sans-serif;
+                text-align:left;
+                color:black;
+            }
+            #drink {
+                position:relative;
+                left:30px;
+                padding:3px;
+            }
+            
+            #time{
+                font-family:helvetica,                   sans-serif;
+                color:white;
+                padding-bottom:10px;
+            }
+    #place{
+          position:relative;
+          bottom:-10px;
+          color:rgb(97, 31, 36);
+        
+    }
+        </style>
+    
+    </head>
+    <body>
+        <img id="croissant" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Red_Velvet_Cake_Waldorf_Astoria.jpg/1200px-Red_Velvet_Cake_Waldorf_Astoria.jpg" width="120" hight="120">
+        <div class="words"><h1 id="headers">Esto es una <span>invitación.</span></h1>
+        <h2 id="headers">Para <span>Desayunar con Mel.</span></h2>
+        <br>
+        <div class="menu"><table>
+        <thead>
+            <tr>
+                <th>Bebidas</th>
+                <th id="drink">Comida</th>
+                
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>Zumo de mango </td>
+                <td id="drink">pancakes</td>
+            </tr>
+            <tr>
+                <td>Colacao</td>
+                <td id="drink">Galletas</td>
+            </tr>
+            <tr>
+                <td>Vino blanco de uvas</td>
+                <td id="drink">Pastel red velvet</td>
+            </tr>
+        </tbody>
+    </table></div>
+    
+        <div id="time"><h3 id="place"><strong>Lugar y hora</strong></h3>
+            <p>Plaza-España nº 3 bj-D <br>Alas 11:05h de la mañana.</p>
+        </div>
+       </div>
+        
+    </body>
+</html>
